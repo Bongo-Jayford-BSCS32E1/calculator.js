@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="personal-info">
+        <h1>Name: Jayford C. Bongo</h1>
+        <p>BSCS 31A1</p>
+    </div>
+
+    <div id="calculator" class="calculator">
+        <input type="text" id="display" class="display" disabled>
+        <div class="buttons">
+            <button class="btn clear" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="input('1')">1</button>
+            <button class="btn" onclick="input('2')">2</button>
+            <button class="btn" onclick="input('3')">3</button>
+            <button class="btn op" onclick="input('+')">+</button>
+            <button class="btn" onclick="input('4')">4</button>
+            <button class="btn" onclick="input('5')">5</button>
+            <button class="btn" onclick="input('6')">6</button>
+            <button class="btn op" onclick="input('-')">-</button>
+            <button class="btn" onclick="input('7')">7</button>
+            <button class="btn" onclick="input('8')">8</button>
+            <button class="btn" onclick="input('9')">9</button>
+            <button class="btn op" onclick="input('*')">*</button>
+            <button class="btn" onclick="input('0')">0</button>
+            <button class="btn equal" onclick="calculate()">=</button>
+            <button class="btn op" onclick="input('/')">/</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
